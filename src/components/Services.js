@@ -46,9 +46,9 @@ const Services = () => {
               <p className='font-secondary leading-tight'>{description}</p>
             </div> 
             <div className='flex flex-col flex-1 items-end  '>
-              <a href='#' className='btn w-9 h-9 mb-[22px]
+              <a href='https://github.com/karthickb2210/Integrated-Information-System' className='btn w-9 h-9 mb-[22px]
               flex justify-center items-center'><BsArrowUpRight /></a>
-              <a href='#' className='text-gradient text-sm'>{link}</a>
+              <a href='https://github.com/karthickb2210/Portfoliosite' className='text-gradient text-sm'>{link}</a>
             </div> 
             </div>
             );

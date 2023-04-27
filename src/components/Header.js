@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo.svg'
+//import logo from '../assets/logo.svg'
 const Header = () => {
   return <header className='py-4'>
   <div className='container mx-auto'>
