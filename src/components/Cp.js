@@ -65,7 +65,7 @@ const Cp = () => {
         </div></td></tr>
         <div className='flex gap-x-8 items-center'>
           <button className='btn btn-lg'><a href='https://leetcode.com/Karthickb2210/'>LEET CODE</a></button>
-          <button className='btn btn-lg'><a href='https://www.codechef.com/users/karthickb2210'></a>CODE CHEF</button>
+          <button className='btn btn-lg'><a href='https://www.codechef.com/users/karthickb2210'>CODE CHEF</a></button>
         </div>
       </div>
     </div>
