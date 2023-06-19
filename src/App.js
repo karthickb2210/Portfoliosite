@@ -3,10 +3,10 @@ import React from 'react';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-//import Work from './components/Work';
+import Cp from './components/Cp';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Education from './components/education';
 
 const App = () => {
   return (
@@ -14,10 +14,11 @@ const App = () => {
       <Header />
       <Banner />
       <Nav />
-      <About />
-      <Services />
-      {/* // <Work /> */}
+      <Cp/>
+      <Projects />
       <Contact />
+      <Education />
+      
       <div className='h-[4000px]'></div> 
     </div>
   );
