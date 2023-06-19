@@ -14,7 +14,7 @@ const Education =()=>{
        <div class="con">
         <div class="card" >
             <div class="img-box">
-                <img class="im" src={html}/>
+                <img class="im" src={html} alt="html"/>
                 
             </div>
             <div class="cont text-black">
@@ -32,7 +32,7 @@ concepts and tags of html<br></br>
         </div>
         <div class="card" >
             <div class="img-box">
-                <img class="im"src={java}/>
+                <img class="im"src={java} alt="java"/>
             </div>
             <div class="cont clr ">
                 <h2>JAVA</h2>
@@ -45,7 +45,7 @@ concepts and tags of html<br></br>
         </div>
         <div class="card" >
             <div class="img-box">
-                <img class="im" src={react}/>
+                <img class="im" src={react} alt="react"/>
                 
             </div>
             <div class="cont clr">
@@ -61,7 +61,7 @@ concepts and tags of html<br></br>
         </div>
         <div class="card" >
             <div class="img-box">
-                <img class="im" src={boot}/>
+                <img class="im" src={boot} alt="botstrap "/>
             </div>
             <div class="cont clr">
                 <h2 >Frontend design tools</h2>
@@ -76,7 +76,7 @@ concepts and tags of html<br></br>
         
         <div class="card" >
             <div class="img-box">
-                <img class="im" src={dsa}/>
+                <img class="im" src={dsa} alt='dsa'/>
                 
             </div>
             <div class="cont clr">
@@ -84,12 +84,11 @@ concepts and tags of html<br></br>
                 <p class="txt">
                    *By taking place in competitive programming i got an enormous knowledge about the data structure and the algorithms use in solving the problems
                 </p>
-                <a href="">Read More</a>
             </div>
         </div>
         <div class="card" >
             <div class="img-box">
-                <img class="im" src={node}/>
+                <img class="im" src={node} alt="node"/>
                 
             </div>
             <div class="cont clr">
