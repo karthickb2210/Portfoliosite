@@ -15,7 +15,7 @@ const service = [
   },
   {
     name: 'On Progress',
-    description:'Yet to Come',
+    description:'Yet ',
     // link :'Proofs',
   }
 ]
