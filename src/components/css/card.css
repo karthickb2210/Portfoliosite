@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+img{
+
+    object-fit: fill;
+}
+#education{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.txt{
+    text-align: left;
+}
+.clr{
+    color: #11131e;
+    text-align: left;
+}
+.heding{
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    color: #b936ee;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #11131e;
+}
+
+.con {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.con .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.con .card:hover {
+    height: 400px;
+    cursor: pointer;
+}
+
+.con .card .img-box {
+    position: absolute;
+    top: 20px;
+    width: 250px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.con .card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.con .card .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.con .card .cont {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.con .card:hover .cont {
+    top: 130px;
+    height: 250px;
+}
+
+.con .card .cont h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.con .card .cont p {
+    color: #333;
+}
+
+.con .card .cont a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: var(--clr);
+    color: white;
+    font-weight: 400;
+}
+
+.con .card .cont a:hover {
+    opacity: 0.8;
+}
+
+/* @media (max-width: 480px) {
+    .con .card {
+        width: 230px;
+        border-radius: 15px;
+    }
+
+    .con .card .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .con .card .cont p {
+        font-size: 0.8rem;
+    }
+
+    .con .card .cont a {
+        font-size: 0.9rem;
+    }
+} */
