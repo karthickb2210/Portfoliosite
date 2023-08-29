@@ -10,7 +10,7 @@ const Education =()=>{
     return(
         
     <div id='education' className="flex flex-wrap">
-    <h1 className="heding flex-auto justify-center">SKILLS I POSSES</h1>
+    <h1 className="heding flex-auto justify-center mt-7">SKILLS I POSSES</h1>
        <div class="con">
         <div class="card" >
             <div class="img-box">
@@ -22,9 +22,7 @@ const Education =()=>{
                 <p class="txt">
                 
 *Stronger in the basic 
-concepts and tags of html<br></br>
-*Worked with the css properties for my projects that includes different kings of animation,transitions ,etc..   
-<br></br>*Created many mini games and playfull websites to make my js skills stronger
+concepts and tags of html, created many mini games and playfull websites to make my js skills
         
                 </p>
                 
@@ -39,7 +37,6 @@ concepts and tags of html<br></br>
                 <p class="txt">
                    *Stronger in concepts of java like polymorphism,objects,classes,funtions,methods,constructers etc..
                   <br></br> *OOPS concepts 
-                  <br></br>* I use JAVA as my competitive programming language
                 </p>
                 </div>
         </div>
@@ -55,7 +52,7 @@ concepts and tags of html<br></br>
 
                    </br>
                    * Got a huge knowlegde of react js while working in the portfolio project 
-                </p>
+</p>
                
             </div>
         </div>
@@ -92,7 +89,7 @@ concepts and tags of html<br></br>
                 
             </div>
             <div class="cont clr">
-                <h2>Node and Express</h2>
+                <h2>Node Js</h2>
                 <p class="txt">
                     * To make backend for my SIH problem i amde use of the node js and Express js for creating the server of the pages  
                 </p>
