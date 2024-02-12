@@ -10,7 +10,7 @@ const Header = () => {
         <img src={logo} alt='logo' />
        </a> */ }
        {}
-        <button className='btn btn-sm'><a href='https://drive.google.com/file/d/1eyro9nnSULrf8XtfFMzg34U_ubsxN8-7/view?usp=sharing'>MY RESUME</a></button> 
+        <button className='btn btn-sm'><a href='https://drive.google.com/file/d/1ikt0oLZ2GwusJ1jfvL3xDAs6GQh68h1e/view?usp=sharing'>MY RESUME</a></button> 
         <div className='container'>
         <Personal />
         </div>
