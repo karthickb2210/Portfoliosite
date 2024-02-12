@@ -8,9 +8,9 @@ const Header = () => {
     <div className='flex justify-between items-center pr-8'>
       {/* <a href='#'>
         <img src={logo} alt='logo' />
-       </a> */}
+       </a> */ }
        {}
-        <button className='btn btn-sm'><a href='https://drive.google.com/file/d/1eyro9nnSULrf8XtfFMzg34U_ubsxN8-7/view?usp=drive_link'>MY RESUME</a></button> 
+        <button className='btn btn-sm'><a href='https://drive.google.com/file/d/1eyro9nnSULrf8XtfFMzg34U_ubsxN8-7/view?usp=sharing'>MY RESUME</a></button> 
         <div className='container'>
         <Personal />
         </div>
