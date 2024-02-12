@@ -33,11 +33,11 @@ const Banner = () => {
       />
       </div>
       <p className='mb-8 max-w-lg mx-auto lg:mx-0'>I Am a Young College fresher with some good problem solving
-      skills and a good understanding of react and data struture concepts 
+      skills and a good understanding of react and data structure concepts 
       </p>
       <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-        <button className='btn btn-lg'>Conatct me</button>
-        <a href='https://github.com/karthickb2210' className='text-gradient btn-link'>MY PORTFOLIO</a>
+        <button className='btn btn-lg'><a  href='https://www.linkedin.com/in/karthick-b-b0421a1b8/'>Conatct me</a></button>
+        {/* <a href='https://github.com/karthickb2210' className='text-gradient btn-link'>MY PORTFOLIO</a> */}
       </div>
    { /* social media */}
       <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
@@ -52,7 +52,7 @@ const Banner = () => {
       </a>
       </div>
       </div>
-      <div className='hidden lg:flex flex-1 max-w-[400px] bg-top bg-no-repeat mix-blend-lighten  max-h-[550px] lg:max-w-[480px] mx-auto'>
+      <div className='hidden lg:flex flex-1 max-w-[500px] bg-top bg-no-repeat mix-blend-lighten  max-h-[650px] lg:max-w-[480px] mx-auto'>
        <img src={Image} alt='profile' />
       </div>
       </div>
